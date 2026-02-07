@@ -42,5 +42,3 @@ for line in lines:
 
 with open(out_file, "w", encoding="utf-8") as f:
     f.write("\n".join(result) + "\n")
-
-print("Готово.")
